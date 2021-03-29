@@ -1,5 +1,6 @@
 module github.com/prometheus/client_golang
 
+replace github.com/prometheus/common v0.18.0 => github.com/koscom-cloud/prometheus-common v0.0.1
 require (
 	github.com/beorn7/perks v1.0.1
 	github.com/cespare/xxhash/v2 v2.1.1
@@ -12,3 +13,4 @@ require (
 )
 
 go 1.13
+
